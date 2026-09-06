@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DQSN — Developer & Creator</title>
+  <meta
+    name="description"
+    content="DQSN — Developer, programmer and 3D creator."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- REAL 3D CANVAS -->
+  <canvas id="three-canvas"></canvas>
+  <!-- ATMOSPHERIC OVERLAYS -->
+  <div class="grid-overlay"></div>
+  <div class="noise"></div>
+  <div class="vignette"></div>
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#home" class="logo">
+      <span class="logo-mark">D</span>
+      <span>DQSN</span>
+    </a>
+    <div class="nav-center">
+      <a href="#about">ABOUT</a>
+      <a href="#skills">STACK</a>
+      <a href="#projects">PROJECTS</a>
+    </div>
+    <a
+      href="https://github.com/kczp"
+      target="_blank"
+      rel="noopener"
+      class="github-link"
+    >
+      GITHUB ↗
+    </a>
+  </nav>
+  <!-- HERO -->
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          SYSTEM ONLINE
+        </div>
+        <p class="hero-tag">
+          // DEVELOPER · PROGRAMMER · CREATOR
+        </p>
+        <h1>
+          <span class="small-title">WELCOME TO</span>
+          <span class="brand">
+            DQ<span>SN</span>
+          </span>
+          <span class="subtitle">
+            DIGITAL ARCHITECTURE.
+          </span>
+        </h1>
+        <p class="hero-description">
+          Building interactive experiences, games, software
+          and digital worlds through code, design and 3D.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="button primary">
+            EXPLORE PROJECTS
+            <span>↘</span>
+          </a>
+          <a href="#about" class="button">
+            ABOUT ME
+          </a>
+        </div>
+      </div>
+      <!-- FLOATING HUD -->
+      <div class="hero-hud hud-left">
+        <span>01</span>
+        <div></div>
+        <p>LOCATION<br><strong>LONDON, UK</strong></p>
+      </div>
+      <div class="hero-hud hud-right">
+        <p>CREATIVE<br><strong>DEVELOPMENT</strong></p>
+        <div></div>
+        <span>2026</span>
+      </div>
+      <div class="scroll-indicator">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="section-number">
+        <span>01</span>
+        <div></div>
+        <p>ABOUT DQSN</p>
+      </div>
+      <div class="about-layout">
+        <div class="about-heading">
+          <p class="eyebrow">// THE PERSON BEHIND THE CODE</p>
+          <h2>
+            I BUILD THINGS
+            <span>THAT DON'T EXIST YET.</span>
+          </h2>
+        </div>
+        <div class="about-content">
+          <p class="large-text">
+            I'm <strong>DQSN</strong>, also known as
+            <strong>KCZP</strong>. I build games, websites,
+            software, tools and experimental digital projects.
+          </p>
+          <p>
+            I enjoy working across multiple disciplines —
+            programming systems, designing interfaces, creating
+            3D environments and turning ambitious ideas into
+            functional projects.
+          </p>
+          <div class="stats">
+            <div>
+              <strong>10+</strong>
+              <span>TECHNOLOGIES</span>
+            </div>
+            <div>
+              <strong>3D</strong>
+              <span>DEVELOPMENT</span>
+            </div>
+            <div>
+              <strong>∞</strong>
+              <span>IDEAS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="section-number">
+        <span>02</span>
+        <div></div>
+        <p>TECHNICAL STACK</p>
+      </div>
+      <div class="skills-header">
+        <h2>
+          BUILT WITH
+          <span>CODE.</span>
+        </h2>
+        <p>
+          A constantly expanding toolkit for building
+          everything from low-level software to interactive
+          web experiences and games.
+        </p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <div class="skill-symbol">C</div>
+          <h3>C / C++</h3>
+          <p>
+            Performance-focused programming and systems
+            development.
+          </p>
+          <span class="skill-type">SYSTEMS</span>
+        </article>
+        <article class="skill-card featured">
+          <span class="skill-number">02</span>
+          <div class="skill-symbol">#</div>
+          <h3>C#</h3>
+          <p>
+            Application development, tools and interactive
+            systems.
+          </p>
+          <span class="skill-type">DEVELOPMENT</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <div class="skill-symbol">Py</div>
+          <h3>PYTHON</h3>
+          <p>
+            Automation, scripting, tooling and software
+            projects.
+          </p>
+          <span class="skill-type">AUTOMATION</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">04</span>
+          <div class="skill-symbol">TS</div>
+          <h3>TYPESCRIPT</h3>
+          <p>
+            Modern web applications and interactive
+            experiences.
+          </p>
+          <span class="skill-type">WEB</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">05</span>
+          <div class="skill-symbol">Go</div>
+          <h3>GO</h3>
+          <p>
+            Efficient backend systems and modern software.
+          </p>
+          <span class="skill-type">BACKEND</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">06</span>
+          <div class="skill-symbol">J</div>
+          <h3>JAVA</h3>
+          <p>
+            Software development and object-oriented systems.
+          </p>
+          <span class="skill-type">SOFTWARE</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">07</span>
+          <div class="skill-symbol">Lu</div>
+          <h3>LUA</h3>
+          <p>
+            Game systems, gameplay scripting and Roblox
+            development.
+          </p>
+          <span class="skill-type">GAME DEV</span>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">08</span>
+          <div class="skill-symbol">3D</div>
+          <h3>BLENDER</h3>
+          <p>
+            3D modelling, environments, assets and digital
+            worlds.
+          </p>
+          <span class="skill-type">CREATIVE</span>
+        </article>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects-section">
+      <div class="section-number">
+        <span>03</span>
+        <div></div>
+        <p>SELECTED WORK</p>
+      </div>
+      <div class="projects-title">
+        <h2>
+          EXPERIMENT.
+          <span>CREATE. BUILD.</span>
+        </h2>
+        <p>
+          A selection of projects and ideas from the DQSN
+          development space.
+        </p>
+      </div>
+      <div class="projects-list">
+        <article class="project">
+          <div class="project-index">001</div>
+          <div class="project-visual project-blue">
+            <div class="visual-orb"></div>
+            <span>GAME DEVELOPMENT</span>
+          </div>
+          <div class="project-details">
+            <div>
+              <p class="project-category">INTERACTIVE SYSTEMS</p>
+              <h3>PROJECT AKULA</h3>
+            </div>
+            <p class="project-description">
+              An experimental game development project focused
+              on systems, gameplay and interactive experiences.
+            </p>
+            <span class="project-arrow">↗</span>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-index">002</div>
+          <div class="project-visual project-purple">
+            <div class="visual-grid"></div>
+            <span>DEVELOPER TOOLS</span>
+          </div>
+          <div class="project-details">
+            <div>
+              <p class="project-category">SOFTWARE</p>
+              <h3>LYRO LABS</h3>
+            </div>
+            <p class="project-description">
+              A space for experimenting with tools, utilities
+              and ideas designed around modern development.
+            </p>
+            <span class="project-arrow">↗</span>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-index">003</div>
+          <div class="project-visual project-cyan">
+            <div class="visual-lines"></div>
+            <span>3D WEB</span>
+          </div>
+          <div class="project-details">
+            <div>
+              <p class="project-category">EXPERIMENTAL WEB</p>
+              <h3>DQSN DIGITAL</h3>
+            </div>
+            <p class="project-description">
+              Interactive web experiments combining 3D,
+              animation and modern frontend development.
+            </p>
+            <span class="project-arrow">↗</span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="section contact-section">
+      <div class="contact-grid">
+        <p class="eyebrow">
+          // END OF TRANSMISSION
+        </p>
+        <h2>
+          LET'S CREATE
+          <span>SOMETHING DIFFERENT.</span>
+        </h2>
+        <a
+          href="https://github.com/kczp"
+          target="_blank"
+          rel="noopener"
+          class="contact-link"
+        >
+          <span>VISIT MY GITHUB</span>
+          <strong>↗</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+  <!-- MUSIC PLAYER -->
+  <div class="music-player">
+    <button id="musicToggle" aria-label="Play music">
+      <span id="musicIcon">▶</span>
+    </button>
+    <div class="music-info">
+      <span>MUSIC</span>
+      <strong id="musicStatus">OFFLINE</strong>
+    </div>
+    <input
+      type="range"
+      id="volume"
+      min="0"
+      max="1"
+      step="0.01"
+      value="0.35"
+    >
+  </div>
+  <audio id="backgroundMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <footer>
+    <div>DQSN © 2026</div>
+    <div class="footer-center">
+      <span></span>
+      DIGITAL DEVELOPMENT
+      <span></span>
+    </div>
+    <div>KCZP</div>
+  </footer>
+  <!-- THREE.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
